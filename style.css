@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: darkgray;
+    font-family: cursive;
+}
+
+h2{
+    padding: 0;
+    font-size: 30px;
+}
+
+.container{
+
+width: 400px;
+border: solid;
+text-align: center;
+background-color: rgb(129, 247, 129);
+border-radius: 10px;
+padding: 20px
+
+}
+
+.otp-box{
+    border: solid;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    font-size: 30px;
+    background-color: buttonface;
+
+}
+
+#btn{
+    margin-top: 0;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+#btn:hover{
+    background-color: rgb(194, 194, 194);
+}
